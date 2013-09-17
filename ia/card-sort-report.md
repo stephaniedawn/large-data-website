@@ -31,10 +31,10 @@ The card sort was conducted by Stephanie Cansfield on September 10th, 2013 betwe
 
 ## Card Sort Results
 
-![Card Sort 1 Results](mansura.jpg)
+![Card Sort 1 Results](card-sort-1.jpg)
 *Card sort 1 by Mansura Chowdbury*
 
-![Card Sort 2 Results](lisa.jpg)
+![Card Sort 2 Results](card-sort-2.jpg)
 *Card sort 2 by Lisa Beaton*
 
 ## Observations
