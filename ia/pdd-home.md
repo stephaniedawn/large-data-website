@@ -2,7 +2,9 @@
 
 ## 1. High
 
-- Link to all categories.
+- Link to all major categories in navigation.
+	- Side buckets for popular threads (ie: lice and other various scalp conditons, current hair trends of the month, etc.)
+- Blog style buckets.	
 - Video introduction to the site.
 - Search bar.
 
