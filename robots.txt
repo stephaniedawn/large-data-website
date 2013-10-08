@@ -1,0 +1,6 @@
+
+Sitemap: http://pink-pigtails.com/sitemap.xml
+
+
+User-Agent: *
+Disallow: img
