@@ -3,57 +3,168 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Pink Pigtails · Hairstyling Blog; Ottawa, Canada.</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<script src="galleria/galleria-1.2.9.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 		<meta name="handheldfriendly" content="true">
 		<meta name="mobileoptimized" content="240">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<link href="css/general.css" rel="stylesheet">
 		<meta name="description" content="My personal knowledge and experience in the hairstyling industry. Viewers come for inspiration on haircuts, colours, and styles.">
+		
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:700' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
+<div class="searchbar">	
+<label>Search</label>
+<input type="search" placeholder="Search">
+</div>
+
+
 	
-<header class="banner-tabs">
-	<h1 class="logo"><a href="index.html" class="logo-link">Pink Pigtails</a></h1>
-		<nav class="nav-bar">
-      		<ul class="nav nav-top">
-				<li><a href="index.html" class="">Home</a></li>
-				<li><a href="about.html" class="">About </a></li>
-				<li><a href="tools.html" class="">Tools</a></li>
-				<li><a href="products.html" class="">Products</a></li>
-				<li><a href="services.html" class="">Services</a></li>
+
+	
+<header>
+
+	<div class="social-media">
+		<img src="images/facebook.png" alt="fb-hair">
+		<img src="images/twitter.png" alt="tw-hair">
+		<img src="images/mail.png" alt="mail-hair">
+	</div>	
+
+
+		<a href="#nav" class="nav-btn">MENU</a>
+			
+		<nav class="nav nav-top" data-state="closed">
+			<ul id="nav-top">
+				<li>
+					<a href="index.html" class="">· Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+					<ul class="noJS">
+						<li><a href="contact.html">Contact</a></li>
+					</ul>	
+				</li>
+				<li>
+					<a href="../large-data-website/about.html" class="">· About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+					<ul class="noJS">
+						<li><a href="about-hairstyling.html">Industry Now</a></li>
+						<li><a href="#">Future</a></li>
+						<li><a href="#">Extras</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="tools.html" class="">· Tools&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+					<ul class="noJS">
+						<li><a href="#">Professional</a></li>
+						<li><a href="#">Public</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="products.html" class="">· Products&nbsp;</a>
+					<ul class="noJS">
+						<li><a href="#">Treatments</a></li>
+						<li><a href="#">Styling</a></li>
+						<li><a href="#">Hair-Dyes</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="services.html" class="">· Services&nbsp;&nbsp;</a>
+					<ul class="noJS">
+						<li><a href="#">Up-dos+Styles</a></li>
+						<li><a href="#">Hair Cuts</a></li>
+						<li><a href="#">Perms+Relaxers</a></li>
+						<li><a href="#">Extensions</a></li>
+						<li><a href="#">Colours</a></li>
+					</ul>
+				</li>
+			</ul>	
+		</nav>
+		
+		<div class="logo-2"><img src="images/logo-pinkpigtails.png"></div>
+		
+		<nav class="navigation-2">
+		<ul id="navigation-2-bar">
+				<li>
+					<a href="index.html" class="">· Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+					<ul class="noJS">
+						<li><a href="contact.html">Contact</a></li>
+					</ul>	
+				</li>
+				<li>
+					<a href="../large-data-website/about.html" class="">· About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+					<ul class="noJS">
+						<li><a href="about-hairstyling.html">Industry Now</a></li>
+						<li><a href="#">Future</a></li>
+						<li><a href="#">Extras</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="tools.html" class="">· Tools&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+					<ul class="noJS">
+						<li><a href="#">Professional</a></li>
+						<li><a href="#">Public</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="products.html" class="">· Products&nbsp;</a>
+					<ul class="noJS">
+						<li><a href="#">Treatments</a></li>
+						<li><a href="#">Styling</a></li>
+						<li><a href="#">Hair-Dyes</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="services.html" class="">· Services&nbsp;&nbsp;</a>
+					<ul class="noJS">
+						<li><a href="#">Up-dos+Styles</a></li>
+						<li><a href="#">Hair Cuts</a></li>
+						<li><a href="#">Perms+Relaxers</a></li>
+						<li><a href="#">Extensions</a></li>
+						<li><a href="#">Colours</a></li>
+					</ul>
+				</li>
 			</ul>
-    	</nav>
-</header>
+		</nav>	
+		
+		<div class="logo"><img src="images/logo-pinkpigtails.png"></div>
+		
+	</header>	
 	
-<h1><strong><!--Add logo in here. -->Pink Pigtails—</strong> a hairstyling blog.</h1>
-	<p>One girl's thoughts on all things <strong>hairstyling.</strong></p>
-		<p>Here you can find information, tips, tricks, and tutorials on everything from <em>hair cuts, styles, colours, and products.</em></p>
-		<p>Hi, I am Stephanie Dawn. I am a young stylist who lives in Ottawa, Ontario, and I have been a hairstylist for 3 years now. This site is mainly a blog about my personal experiences in the salon industry, the knowledge I have gained from that, tips I have picked up from other stylists, and opinions on specific styles, products, and tools.</p>
+	<h2>One girl's thoughts on all things <strong>hairstyling.</strong></h2>
+		<div class="hi"><p>For information, tips, tricks, and tutorials on all things hair-related.</p>
+		
+		<img src="images/bobbypin.png">
+		
+		<p>Hi, I am Stephanie Dawn. I am a young stylist who lives in Ottawa, Ontario, and I have been a hairstylist for 3 years now. This site is mainly a blog about my personal experiences in the salon industry, the knowledge I have gained from that, tips I have picked up from other stylists, and opinions on specific styles, products, and tools.</p></div>
 
 		
 		<h3>Fall Hair Trends</h3>
 			<figcaption>October 7th, 2013</figcaption>
+			
+			<div class="homepage-blog">
+				<img src="images/bun.jpg">
+				<img src="images/richblonde.jpg">
+				<img src="images/middlepart.jpg">
+				<img src="images/whispy.jpg">
+			</div>	
+			
+			<div class="blog-1">
 				<p>This is always a popular topic— seasonal hair trends, so here it is, guys!</p>
 				<p>Here I have four popular hairstyles, colours, cuts, and overall looks for women's autumn hair trends for 2013.</p>
-				<p>I'll be posting a shorter blurb for men's look this Fall/Winter soon.</p>
-				<p>What's trending:</p>
+				<p>I'll be posting a blog for men's look this Fall/Winter soon.</p>
+				<p><strong>What's trending:</strong></p>
 					<ol>
 						<li>Middle part with long, slightly-layered wavy hair.</li>
 						<li>Whispy side-bangs matched with a long bob.</li>
 						<li>Ombre is still trending but in deeper, auburn-y brown tones or golden rich blondes.</li>
 						<li>Chestnut browns, golden deep blondes, subtle peek-a-boo tones on deeper brunettes.</li>
 						<li>The top-knot or large bun is still a go this season because of it's simplicity and femininity.</li>
-					</ol>		
+					</ol>
+				</div>			
 </div>
 
-	<img src="images/bun.jpg" alt="Hairstyle-bun">
-	<img src="images/middlepart.jpg" alt="Hairstyle-middle-part">
-	<img src="images/richblonde.jpg" alt="Hair-colour-rich-blonde">
-	<img src="images/whispy.jpg" alt="Haircut-whispy-bangs">
-	
 
-	<a href="#" class="older-button">OLDER</a>
-	<a href="#" class="next-button">NEWER</a>
+	
 
 
 <footer class="footer">
@@ -69,6 +180,8 @@
       </ul>
     </nav>
   </footer>
+  
+  <script src="javascript/app.js"></script>
 
 </body>
 </html>
