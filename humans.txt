@@ -11,9 +11,6 @@ Site: scansfield@gmail.com
                             
 Location: Ottawa, Canada
 
-                         
-                 
-                        [...]
 						
 
 							
@@ -24,9 +21,7 @@ Name: Thomas Bradley
 
 Name: Galleria.io for the Slideshow component.
 
-						
-                 
-                        [...]
+				
                         
 
                             
