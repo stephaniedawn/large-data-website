@@ -468,6 +468,33 @@ figcaption {
 	padding-right: 4%;
 }
 
+.box-pro {
+	padding-top: 10%;
+	padding-bottom: 20%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 10%;
+}
+
+.pro-h1 {
+	font-size: 1.5em;
+	padding-left: 4%;
+	padding-bottom: 5%;
+	border-bottom: thin solid #000000;
+}
+.pro-fig {
+	background-color: #FFFFFF;
+	color: #000000;
+	padding-left: 4%;
+}
+
+.pro-p {
+	font-size: .5em;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+
 
 @media only screen and (min-width: 16.25em) {
 
@@ -616,6 +643,119 @@ figcaption {
 .homepage-blog img {
 	width: 50%;
 }
+
+.box-about {
+	padding-top: 10%;
+	padding-bottom: 20%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 10%;
+}
+
+.box-h2 {
+	font-size: 1em;
+	padding-bottom: 5%;
+}
+
+.box-p {
+	font-size: .5em;
+}
+
+.box-industry {
+	padding-top: 10%;
+	padding-bottom: 20%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 10%;
+}
+
+.industry-h1 {
+	font-size: 1.5em;
+	padding-left: 4%;
+	border-bottom: thin solid #000000;
+	padding-bottom: 10%;
+	padding-bottom: 5%;
+}
+
+.industry-h2 {
+	font-size: 1em;
+	border-bottom: none;
+	padding-bottom: 5%;
+}
+
+.industry-fig {
+	background-color: #FFFFFF;
+	color: #000000;
+	padding-left: 4%;
+}
+
+.industry-p {
+	font-size: .5em;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+.box-future {
+	padding-top: 10%;
+	padding-bottom: 20%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 10%;
+}
+
+.future-h1 {
+	font-size: 1.5em;
+	padding-left: 4%;
+	border-bottom: thin solid #000000;
+	padding-bottom: 10%;
+	padding-bottom: 5%;
+}
+
+.future-h2 {
+	font-size: 1em;
+	border-bottom: none;
+	padding-bottom: 5%;
+}
+
+.future-fig {
+	background-color: #FFFFFF;
+	color: #000000;
+	padding-left: 4%;
+}
+
+.future-p {
+	font-size: .5em;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+.box-pro {
+	padding-top: 10%;
+	padding-bottom: 20%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 10%;
+}
+
+.pro-h1 {
+	font-size: 1.5em;
+	padding-left: 4%;
+	padding-bottom: 5%;
+	border-bottom: thin solid #000000;
+	padding-bottom: 5%;
+}
+.pro-fig {
+	background-color: #FFFFFF;
+	color: #000000;
+	padding-left: 4%;
+}
+
+.pro-p {
+	font-size: .5em;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
 
 
 }
@@ -819,6 +959,32 @@ h3 {
 	.logo-2 {
 		display: none;
 	}
+	
+	.pro-fig {
+	background-color: #FFFFFF;
+	color: #000000;
+	padding-left: 4%;
+	padding-bottom: 5%;
+}
+
+	.future-fig {
+		padding-bottom: 5%;
+	}
+	
+	.industry-fig {
+		padding-bottom: 5%;
+	}
+	
+	.box-future {
+		padding-bottom: 0;
+}
+
+.box-industry {
+		padding-bottom: 0;
+}
+
+.box-pro {
+		padding-bottom: 0;
 }
 
 @media only screen and (min-width: 46em) {
